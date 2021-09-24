@@ -1,15 +1,16 @@
 /*
- * utn_funciones_tp1.h
+ * OPERACIONES_TP1.h
  *
- *  Created on: 23 sep. 2021
- *      Author: Leandro
+ *  Created on: 24 sep. 2021
+ *      Author: Leandro Valenzuela
  */
 
-#ifndef UTN_FUNCIONES_TP1_H_
-#define UTN_FUNCIONES_TP1_H_
+#ifndef OPERACIONES_TP1_H_
+#define OPERACIONES_TP1_H_
 
-char ImprimirMenu(int flagNumeroUno, int flagNumeroDos, float numUno, float numDos);
+void ImprimirMenu(int flagNumeroUno, int flagNumeroDos, float numUno, float numDos);
 int getMyFloat(float* pNum,char *variableTexto, char *mensajeError);
+int imprimirSubMenu(int flagNumeroUno,int flagNumeroDos);
 float suma(float numUno,float numDos);
 float resta(float numUno,float numDos);
 float multiplicacion(float numUno,float numDos);
@@ -17,4 +18,4 @@ int division(float numUno,float numDos,float* pResultadoDivision);
 int factorial(float num,float* pResultadoFactorial);
 
 
-#endif /* UTN_FUNCIONES_TP1_H_ */
+#endif /* OPERACIONES_TP1_H_ */
